@@ -28,7 +28,7 @@ Perbedaan antara Compiler dengan Interpreter
 4. Interpreter cocok untuk membuat / menguji coba modul ( sub-routine / program-program kecil ). Maka compiler agak repot karena untuk mengubah suatu modul / kode objek kecil, maka harus dilakukan proses linking / penggabungan kembali semua objek dengan library yang diperlukan.
 5. Pada kompiler bisa dilakukan optimisasi / peningkatan kualitas kode yang bisa dijalankan. Ada yang dioptimasi supaya lebih cepat, ada yang supaya lebih kecil, ada yang dioptimasi untuk sistem dengan banyak processor. Kalau interpreter susah atau bahkan tidak bisa dioptimasikan.
 
--ECMAScript (ES)
+- ECMAScript (ES)
 
 ECMAScript adalah spesifikasi bahasa scripting yang distandarisasi oleh Ecma International. ECMAScript dibuat untuk membakukan JavaScript untuk membantu mendorong beberapa implementasi independen. JavaScript tetap menjadi implementasi ECMAScript yang paling banyak digunakan sejak standar pertama kali diterbitkan, dengan implementasi lainnya termasuk JScript dan ActionScript. ECMAScript biasanya digunakan untuk skrip sisi klien di World Wide Web dan semakin banyak digunakan untuk menulis aplikasi dan layanan server menggunakan Node.js.
 
