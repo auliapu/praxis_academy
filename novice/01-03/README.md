@@ -1,7 +1,9 @@
  ## 01-03
  
  Judul : Function / Fungsi di JavaScript
+ 
  Oleh : Aulia Putri Utami
+ 
  Tanggal : 04 Maret 2020
  
  Ringkasan Materi :
@@ -74,3 +76,7 @@ Dalam JavaScript, sebuah variabel dapat dideklarasikan setelah digunakan. Dengan
 
 **Inisialisasi JavaScript Not Hoisted**
 JavaScript hanya mengangkat deklarasi, bukan inisialisasi.        
+
+Isi Repositori : 
+
+Repositor berisi direktori latihan dan kasus untuk pertemuan minggu pertama hari ketiga, dan file README.md yang berisikan ringkasan materi.
