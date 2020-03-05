@@ -37,5 +37,4 @@ Ringkasan Materi :
  
   Ekspresi reguler digunakan dengan pengujian metode RegExp () dan exec () dan dengan metode pencocokan String (), ganti (), search (), dan split (). Metode-metode ini dijelaskan secara rinci dalam referensi JavaScript.
 
-  
-
+Isi repositori : repositori berisi foder 01-04 yang berisikan file-file hasil dari latihan dan kasus-kasus yang dikerjakan untuk pertemuan minggu pertama hari keempat.  
