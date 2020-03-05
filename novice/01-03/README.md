@@ -1,7 +1,9 @@
  ## 01-03
  
  Judul : Function / Fungsi di JavaScript
+ 
  Oleh : Aulia Putri Utami
+ 
  Tanggal : 04 Maret 2020
  
  Ringkasan Materi :
@@ -23,10 +25,12 @@
 Perbedaan parameter dengan argument
 
 - parameter
+
 Parameter digunakan ketika mendefinisikan suatu fungsi, mereka adalah nama yang dibuat dalam definisi fungsi.
 
 - argument
-Argumen, di sisi lain, adalah nilai yang diterima fungsi dari setiap parameter ketika fungsi dieksekusi (dipanggil). Contohnya true dan false.
+
+Argument adalah nilai yang diterima fungsi dari setiap parameter ketika fungsi dieksekusi (dipanggil). Contohnya true dan false.
 
 Kata kunci fungsi, bila digunakan sebagai ekspresi, dapat membuat nilai fungsi. Ketika digunakan sebagai statement, statement tersebut dapat digunakan untuk mendeklarasikan ikatan dan memberinya fungsi sebagai nilainya. Arrow function adalah cara lain untuk membuat fungsi.
 
@@ -74,3 +78,7 @@ Dalam JavaScript, sebuah variabel dapat dideklarasikan setelah digunakan. Dengan
 
 **Inisialisasi JavaScript Not Hoisted**
 JavaScript hanya mengangkat deklarasi, bukan inisialisasi.        
+
+Isi Repositori : 
+
+Repositor berisi direktori latihan dan kasus untuk pertemuan minggu pertama hari ketiga, dan file README.md yang berisikan ringkasan materi.
