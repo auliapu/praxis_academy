@@ -1,0 +1,23 @@
+Buat file .ps1 dan .bat dengan nama yang sama, isikan syntax berikut ke file .bat
+
+@ECHO OFF
+PowerShell.exe -Command "& '%~dpn0.ps1'"
+PAUSE
+
+klik dua kali/ketik perintah di PowerShell C:\Script.bat
+Output : Press any key to continue . . .
+
+Final Batch
+- Tanpa akses Admin 
+@ECHO OFF
+PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "& '%~dpn0.ps1'"
+PAUSE
+Output : Press any key to continue . . .
+
+- Dengan akses Admin
+@ECHO OFF
+PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
+PAUSE
+Output : Muncul jendela persetujuan administrator, klik Yes
+Press any key to continue . . .
+

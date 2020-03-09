@@ -1,0 +1,1052 @@
+Command Line :
+1. dir
+Output :
+Volume in drive C is Windows
+ Volume Serial Number is B8D3-BC6C
+
+ Directory of C:\Users\Aulia Putri
+
+12/01/2020  12.00    <DIR>          .
+12/01/2020  12.00    <DIR>          ..
+24/06/2019  22.43                90 .angular-config.json
+25/11/2019  19.42    <DIR>          .astah
+18/02/2020  00.20             9.594 .bash_history
+24/06/2019  22.31    <DIR>          .config
+05/12/2019  15.44                76 .gitconfig
+20/12/2019  22.05    <DIR>          .matplotlib
+18/06/2019  20.50    <DIR>          .nbi
+15/06/2019  05.11    <DIR>          .Origin
+20/12/2019  22.05    <DIR>          .qgis2
+15/06/2019  05.12    <DIR>          .QtWebEngineProcess
+29/11/2019  18.45    <DIR>          .spss
+28/10/2019  12.30             1.131 .viminfo
+26/12/2019  08.13    <DIR>          3D Objects
+26/12/2019  08.13    <DIR>          Contacts
+12/01/2020  12.15    <DIR>          Desktop
+17/02/2020  22.10    <DIR>          Documents
+17/02/2020  22.08    <DIR>          Downloads
+26/12/2019  08.13    <DIR>          Favorites
+26/12/2019  08.13    <DIR>          Links
+26/12/2019  08.13    <DIR>          Music
+17/02/2020  23.48    <DIR>          OneDrive
+26/12/2019  08.13    <DIR>          Pictures
+28/07/2019  08.44    <DIR>          Postman
+26/12/2019  08.13    <DIR>          Saved Games
+26/12/2019  08.13    <DIR>          Searches
+15/02/2020  15.37    <DIR>          Videos
+               4 File(s)         10.891 bytes
+              24 Dir(s)  688.468.619.264 bytes free
+
+2. cd
+Output :
+cd Documents
+
+C:\Users\Aulia Putri\Documents>
+
+3. md
+md coba
+Membuat direktori/folder baru dengan nama "coba" di folder Documents
+
+4. ping
+ping 192.168.43.98
+
+Pinging 192.168.43.98 with 32 bytes of data:
+Reply from 192.168.43.98: bytes=32 time<1ms TTL=128
+Reply from 192.168.43.98: bytes=32 time<1ms TTL=128
+Reply from 192.168.43.98: bytes=32 time<1ms TTL=128
+Reply from 192.168.43.98: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.43.98:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+5. color
+color 1 (berubah warna command prompt menjadi warna biru)
+
+6. date
+date /t
+18/02/2020
+
+7. del
+del coba.txt (file coba.txt terhapus)
+
+8. help
+help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+9. erase
+erase coba.txt (menghapus file coba.txt)
+
+10. ver
+Microsoft Windows [Version 10.0.18363.535]
+
+11. chcp
+Active code page: 437
+
+12. time
+The current time is:  7.24.23,49
+
+13. chdir
+C:\Users\Aulia Putri\Documents
+
+14. more
+exit;
+exit;
+
+15. ipconfig
+Windows IP Configuration
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::ad48:a4c0:4f83:aff5%16
+   IPv4 Address. . . . . . . . . . . : 192.168.43.98
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.43.1
+
+16. assoc
+.001=WinRAR
+.386=vxdfile
+.3g2=WMP11.AssocFile.3G2
+.3gp=WMP11.AssocFile.3GP
+.3gp2=WMP11.AssocFile.3G2
+.3gpp=WMP11.AssocFile.3GP
+.7z=WinRAR
+.AAC=WMP11.AssocFile.ADTS
+.accda=Access.ACCDAExtension.16
+.accdb=Access.Application.16
+.accdc=Access.ACCDCFile.16
+.accde=Access.ACCDEFile.16
+.accdr=Access.ACCDRFile.16
+.accdt=Access.ACCDTFile.16
+.accdu=Access.WizardUserDataFile.16
+.accdw=Access.WebApplicationReference.16
+.accft=Access.ACCFTFile.16
+.accountpicture-ms=accountpicturefile
+.acl=ACLFile
+.ade=Access.ADEFile.16
+.adn=Access.BlankProjectTemplate.16
+.adp=Access.Project.16
+.ADT=WMP11.AssocFile.ADTS
+.ADTS=WMP11.AssocFile.ADTS
+.aid=StarUML.AddInDescription
+.aif=WMP11.AssocFile.AIFF
+.aifc=WMP11.AssocFile.AIFF
+.aiff=WMP11.AssocFile.AIFF
+.ani=anifile
+.appcontent-ms=ApplicationContent
+.application=Application.Manifest
+.appref-ms=Application.Reference
+.apr=StarUML.Approach
+.arj=WinRAR
+.asa=aspfile
+.asf=WMP11.AssocFile.ASF
+.asp=aspfile
+.asta=astah-UML
+.asx=WMP11.AssocFile.ASX
+.au=WMP11.AssocFile.AU
+.avi=WMP11.AssocFile.AVI
+.aw=AWFile
+.bat=batfile
+.blg=Diagnostic.Perfmon.Document
+.bmp=Paint.Picture
+.bz=WinRAR
+.bz2=WinRAR
+.c2fc=c2fcFile
+.c2fr=c2frFile
+.cab=WinRAR
+.camp=campfile
+.cat=CATFile
+.cda=WMP11.AssocFile.CDA
+.cdmp=cdmpfile
+.cdx=aspfile
+.cdxml=Microsoft.PowerShellCmdletDefinitionXML.1
+.cer=CERFile
+.chk=chkfile
+.chm=chm.file
+.clip=clipFile
+.cmc=cmcFile
+.cmd=cmdfile
+.com=comfile
+.compositefont=Windows.CompositeFont
+.cpl=cplfile
+.crl=CRLFile
+.crt=CERFile
+.crtx=CRTXFile
+.cs3c=cs3cFile
+.cs3o=cs3oFile
+.cs3s=cs3sFile
+.css=CSSfile
+.csv=Excel.CSV
+.cur=curfile
+.cwp=cwpFile
+.db=dbfile
+.dctx=IMEDictionaryCompiler
+.dctxc=IMEDictionaryCompiler
+.dds=ddsfile
+.der=CERFile
+.desklink=CLSID\{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}
+.deskthemepack=desktopthemepackfile
+.det=Outlook.File.det.15
+.diagcab=Diagnostic.Cabinet
+.diagcfg=Diagnostic.Config
+.diagpkg=Diagnostic.Document
+.dib=Paint.Picture
+.dic=txtfile
+.dll=dllfile
+.doc=Word.Document.8
+.dochtml=wordhtmlfile
+.docm=Word.DocumentMacroEnabled.12
+.docmhtml=wordmhtmlfile
+.docx=Word.Document.12
+.docxml=wordxmlfile
+.dot=Word.Template.8
+.dothtml=wordhtmltemplate
+.dotm=Word.TemplateMacroEnabled.12
+.dotx=Word.Template.12
+.dqy=dqyfile
+.drv=drvfile
+.dsn=MSDASQL
+.elm=ELMFile
+.emf=emffile
+.eml=Outlook.File.eml.15
+.evt=evtfile
+.evtx=evtxfile
+.exc=txtfile
+.exe=exefile
+.fdm=Outlook.File.fdm.15
+.flac=WMP11.AssocFile.FLAC
+.fon=fonfile
+.frw=StarUML.Framework
+.gcsx=GCSXFile
+.gif=giffile
+.gitattributes=txtfile
+.gitignore=txtfile
+.gitmodules=txtfile
+.glox=GLOXFile
+.gmmp=gmmpfile
+.gqsx=GQSXFile
+.gra=MSGraph.Chart.8
+.grp=MSProgramGroup
+.gz=WinRAR
+.hlp=hlpfile
+.hol=Outlook.File.hol.15
+.hta=htafile
+.htm=htmlfile
+.html=htmlfile
+.hxa=MSHelp.hxa.2.5
+.hxc=MSHelp.hxc.2.5
+.hxd=MSHelp.hxd.2.5
+.hxe=MSHelp.hxe.2.5
+.hxf=MSHelp.hxf.2.5
+.hxh=MSHelp.hxh.2.5
+.hxi=MSHelp.hxi.2.5
+.hxk=MSHelp.hxk.2.5
+.hxq=MSHelp.hxq.2.5
+.hxr=MSHelp.hxr.2.5
+.hxs=MSHelp.hxs.2.5
+.hxt=MSHelp.hxt.2.5
+.hxv=MSHelp.hxv.2.5
+.hxw=MSHelp.hxa.2.5
+.icc=icmfile
+.icl=IconLibraryFile
+.icm=icmfile
+.ico=icofile
+.ics=Outlook.File.ics.15
+.igp=Intel.GraphicsControlPanel.igp.1
+.imesx=imesxfile
+.img=Windows.IsoFile
+.inf=inffile
+.ini=inifile
+.ipv=ipvFile
+.iqy=iqyfile
+.iso=Windows.IsoFile
+.jar=jarfile
+.jfif=pjpegfile
+.jfr=jfrfile
+.jnlp=JNLPFile
+.Job=JobObject
+.jod=Microsoft.Jet.OLEDB.4.0
+.jpe=jpegfile
+.jpeg=jpegfile
+.jpg=jpegfile
+.js=JSFile
+.JSE=JSEFile
+.jude=astah-UML
+.jxr=wdpfile
+.kml=GoogleEarth.kmlfile
+.kmz=GoogleEarth.kmzfile
+.label=Label
+.laccdb=Access.LockFile.16
+.ldb=Access.LockFile.16
+.lex=LEXFile
+.lha=WinRAR
+.library-ms=LibraryFolder
+.lip=lipFile
+.lnk=lnkfile
+.log=txtfile
+.lz=WinRAR
+.lzh=WinRAR
+.m1v=WMP11.AssocFile.MPEG
+.M2T=WMP11.AssocFile.M2TS
+.M2TS=WMP11.AssocFile.M2TS
+.M2V=WMP11.AssocFile.MPEG
+.m3u=WMP11.AssocFile.m3u
+.m4a=WMP11.AssocFile.M4A
+.m4v=WMP11.AssocFile.MP4
+.mad=Access.Shortcut.Module.1
+.maf=Access.Shortcut.Form.1
+.mag=Access.Shortcut.Diagram.1
+.mam=Access.Shortcut.Macro.1
+.mapimail=CLSID\{9E56BE60-C50F-11CF-9A2C-00A0C90A90CE}
+.maq=Access.Shortcut.Query.1
+.mar=Access.Shortcut.Report.1
+.mas=Access.Shortcut.StoredProcedure.1
+.mat=Access.Shortcut.Table.1
+.mau=Access.Shortcut.Function.1
+.mav=Access.Shortcut.View.1
+.maw=Access.Shortcut.DataAccessPage.1
+.mda=Access.Extension.16
+.mdb=Access.MDBFile
+.mdbhtml=accesshtmlfile
+.mde=Access.MDEFile.16
+.mdn=Access.BlankDatabaseTemplate.16
+.mdp=MediBangPaintProMDP
+.mdt=Access.WizardDataFile.16
+.mdw=Access.Workgroup.16
+.mfe=McAfeeExtn
+.mfg=StarUML.ModelFragment
+.mht=mhtmlfile
+.mhtml=mhtmlfile
+.mid=WMP11.AssocFile.MIDI
+.midi=WMP11.AssocFile.MIDI
+.mk3d=WMP11.AssocFile.MK3D
+.mka=WMP11.AssocFile.MKA
+.mkv=WMP11.AssocFile.MKV
+.mlc=LpkSetup.1
+.MOD=WMP11.AssocFile.MPEG
+.mov=WMP11.AssocFile.MOV
+.mp2=WMP11.AssocFile.MP3
+.mp2v=WMP11.AssocFile.MPEG
+.mp3=WMP11.AssocFile.MP3
+.mp4=WMP11.AssocFile.MP4
+.mp4v=WMP11.AssocFile.MP4
+.mpa=WMP11.AssocFile.MPEG
+.mpe=WMP11.AssocFile.MPEG
+.mpeg=WMP11.AssocFile.MPEG
+.mpg=WMP11.AssocFile.MPEG
+.mpv2=WMP11.AssocFile.MPEG
+.ms-windows-store-license=WindowsStore.License
+.msc=MSCFile
+.msg=Outlook.File.msg.15
+.msi=Msi.Package
+.msp=Msi.Patch
+.msrcincident=RemoteAssistance.1
+.msstyles=msstylesfile
+.msu=Microsoft.System.Update.1
+.MTS=WMP11.AssocFile.M2TS
+.mydocs=CLSID\{ECF03A32-103D-11d2-854D-006008059367}
+.nfo=MSInfoFile
+.nk2=Outlook.File.nk2.15
+.nst=Outlook.File.nst.15
+.nxt=StarUML.NotationExtension
+.ocx=ocxfile
+.odc=odcfile
+.odccubefile=odccubefile
+.odcdatabasefile=odcdatabasefile
+.odcnewfile=odcnewfile
+.odctablecollectionfile=odctablecollectionfile
+.odctablefile=odctablefile
+.odp=PowerPoint.OpenDocumentPresentation.12
+.ods=Excel.OpenDocumentSpreadsheet.12
+.odt=Word.OpenDocumentText.12
+.ofs=Outlook.File.ofs.15
+.oft=Outlook.File.oft.15
+.ols=OfficeListShortcut
+.one=OneNote.Section.1
+.onepkg=OneNote.Package
+.onetoc=OneNote.TableOfContents
+.onetoc2=OneNote.TableOfContents.12
+.opc=OPCFile
+.opt=StarUML.Option
+.oqy=oqyfile
+.osdx=opensearchdescription
+.ost=Outlook.File.ost.15
+.otf=otffile
+.otm=Outlook.File.otm.15
+.p10=P10File
+.p12=PFXFile
+.p7b=SPCFile
+.p7c=certificate_wab_auto_file
+.p7m=P7MFile
+.p7r=P7RFile
+.p7s=P7SFile
+.pab=Outlook.File.pab.15
+.partial=IE.AssocFile.PARTIAL
+.pbk=pbkfile
+.pcb=PCBFile
+.pep=pepFile
+.perfmoncfg=Diagnostic.Perfmon.Config
+.pfm=pfmfile
+.pfx=PFXFile
+.pif=piffile
+.pko=PKOFile
+.pnf=pnffile
+.png=pngfile
+.pot=PowerPoint.Template.8
+.pothtml=powerpointhtmltemplate
+.potm=PowerPoint.TemplateMacroEnabled.12
+.potx=PowerPoint.Template.12
+.ppa=PowerPoint.Addin.8
+.ppam=PowerPoint.Addin.12
+.ppkg=Microsoft.ProvTool.Provisioning.1
+.pps=PowerPoint.SlideShow.8
+.ppsm=PowerPoint.SlideShowMacroEnabled.12
+.ppsx=PowerPoint.SlideShow.12
+.ppt=PowerPoint.Show.8
+.ppthtml=powerpointhtmlfile
+.pptm=PowerPoint.ShowMacroEnabled.12
+.pptmhtml=powerpointmhtmlfile
+.pptx=PowerPoint.Show.12
+.pptxml=powerpointxmlfile
+.prf=StarUML.Profile
+.ps1=Microsoft.PowerShellScript.1
+.ps1xml=Microsoft.PowerShellXMLData.1
+.psc1=Microsoft.PowerShellConsole.1
+.psd1=Microsoft.PowerShellData.1
+.psm1=Microsoft.PowerShellModule.1
+.pssc=Microsoft.PowerShellSessionConfiguration.1
+.pst=Outlook.File.pst.15
+.pub=Publisher.Document.16
+.pubhtml=publisherhtmlfile
+.pubmhtml=publishermhtmlfile
+.pwz=PowerPoint.Wizard.8
+.qds=SavedDsQuery
+.qgs=QGIS Project
+.qgz=QGIS Project
+.qlr=QGIS Layer Definition
+.qml=QGIS Layer Settings
+.qpt=QGIS Composer Template
+.r00=WinRAR
+.r01=WinRAR
+.r02=WinRAR
+.r03=WinRAR
+.r04=WinRAR
+.r05=WinRAR
+.r06=WinRAR
+.r07=WinRAR
+.r08=WinRAR
+.r09=WinRAR
+.r10=WinRAR
+.r11=WinRAR
+.r12=WinRAR
+.r13=WinRAR
+.r14=WinRAR
+.r15=WinRAR
+.r16=WinRAR
+.r17=WinRAR
+.r18=WinRAR
+.r19=WinRAR
+.r20=WinRAR
+.r21=WinRAR
+.r22=WinRAR
+.r23=WinRAR
+.r24=WinRAR
+.r25=WinRAR
+.r26=WinRAR
+.r27=WinRAR
+.r28=WinRAR
+.r29=WinRAR
+.rar=WinRAR
+.rat=ratfile
+.RData=RWorkspace
+.RDP=RDP.File
+.reg=regfile
+.rels=xmlfile
+.resmoncfg=Diagnostic.Resmon.Config
+.rev=WinRAR.REV
+.rle=rlefile
+.rll=dllfile
+.rmi=WMP11.AssocFile.MIDI
+.rqy=rqyfile
+.rtf=Word.RTF.8
+.sav=SPSS.DataDocument
+.sbs=SPSS.SaxBasicDocument
+.scf=SHCmdFile
+.scp=txtfile
+.scr=scrfile
+.sct=scriptletfile
+.search-ms=SearchFolder
+.searchConnector-ms=SearchConnectorFolder
+.settingcontent-ms=SettingContent
+.sfcache=RDBFileProperties.1
+.sh=sh_auto_file
+.shtml=shtmlfile
+.sldm=PowerPoint.SlideMacroEnabled.12
+.sldx=PowerPoint.Slide.12
+.slk=Excel.SLK
+.snd=WMP11.AssocFile.AU
+.spc=SPCFile
+.spd=SPSS.UIBuilderDocument
+.spe=SPSS.ExtBundle
+.spj=SPSS.ProductionDocument
+.spl=ShockwaveFlash.ShockwaveFlash
+.splan=SPSS.SimulationDocument
+.spq=SPSS.DBQueryDocument
+.sps=SPSS.SyntaxDocument
+.spsx=SPSS.PPDocument
+.spv=SPSS.OutputDocument
+.sst=CertificateStoreFile
+.svg=svgfile
+.swf=ShockwaveFlash.ShockwaveFlash
+.symlink=.symlink
+.sys=sysfile
+.tar=WinRAR
+.taz=WinRAR
+.tbz=WinRAR
+.tbz2=WinRAR
+.tgz=WinRAR
+.theme=themefile
+.themepack=themepackfile
+.thmx=OfficeTheme.12
+.tif=TIFImage.Document
+.tiff=TIFImage.Document
+.tlz=WinRAR
+.TS=WMP11.AssocFile.TTS
+.ttc=ttcfile
+.ttf=ttffile
+.TTS=WMP11.AssocFile.TTS
+.tvc=TeamViewerConfiguration
+.tvlink=InternetShortcut
+.tvs=TeamViewerSession
+.txt=txtfile
+.txz=WinRAR
+.UDL=MSDASC
+.uml=StarUML.Project
+.unt=StarUML.Unit
+.URL=InternetShortcut
+.uu=WinRAR
+.uue=WinRAR
+.uxdc=UXDCFILE
+.VBE=VBEFile
+.vbs=VBSFile
+.vcf=Outlook.File.vcf.15
+.vcs=Outlook.File.vcs.15
+.vdw=Visio.WebDrawing.14
+.vdx=Visio.Drawing.11
+.vhd=Windows.VhdFile
+.vhdpmem=Windows.VhdPmemFile
+.vhdx=Windows.VhdFile
+.vsd=Visio.Drawing.11
+.vsdm=Visio.DrawingMacroEnabled.15
+.vsdx=Visio.Drawing.15
+.vsl=Visio.AddOn.11
+.vss=Visio.Stencil.11
+.vssm=Visio.StencilMacroEnabled.15
+.vssx=Visio.Stencil.15
+.vst=Visio.Template.11
+.vstm=Visio.TemplateMacroEnabled.15
+.vsto=bootstrap.vsto.1
+.vstx=Visio.Template.15
+.vsu=Visio.CustomUI.11
+.vsw=Visio.Workspace.11
+.vsx=Visio.Stencil.11
+.vtx=Visio.Template.11
+.vxd=vxdfile
+.wab=wab_auto_file
+.wav=WMP11.AssocFile.WAV
+.wax=WMP11.AssocFile.WAX
+.wbcat=wbcatfile
+.wbk=Word.Backup.8
+.wcx=wcxfile
+.wdp=wdpfile
+.webpnp=webpnpFile
+.website=Microsoft.Website
+.wiz=Word.Wizard.8
+.wizhtml=accessthmltemplate
+.wll=Word.Addin.8
+.wm=WMP11.AssocFile.ASF
+.wma=WMP11.AssocFile.WMA
+.WMD=WMP11.AssocFile.WMD
+.wmdb=WMP.WMDBFile
+.wmf=wmffile
+.WMS=WMP11.AssocFile.WMS
+.wmv=WMP11.AssocFile.WMV
+.wmx=WMP11.AssocFile.ASX
+.wmz=WMP11.AssocFile.WMZ
+.wpl=WMP11.AssocFile.WPL
+.wsc=scriptletfile
+.WSF=WSFFile
+.WSH=WSHFile
+.wtx=txtfile
+.wvx=WMP11.AssocFile.WVX
+.wwd=SPSS.WinWrapBasicDocument
+.xaml=Windows.XamlDocument
+.xbap=Windows.Xbap
+.xdts=xdtsFile
+.xevgenxml=XEV.GenericApp
+.xht=xhtmlfile
+.xhtml=xhtmlfile
+.xla=Excel.Addin
+.xlam=Excel.AddInMacroEnabled
+.xld=Excel.Dialog
+.xlk=Excel.Backup
+.xll=Excel.XLL
+.xlm=Excel.Macrosheet
+.xls=Excel.Sheet.8
+.xlsb=Excel.SheetBinaryMacroEnabled.12
+.xlshtml=Excelhtmlfile
+.xlsm=Excel.SheetMacroEnabled.12
+.xlsmhtml=excelmhtmlfile
+.xlsx=Excel.Sheet.12
+.xlt=Excel.Template.8
+.xlthtml=Excelhtmltemplate
+.xltm=Excel.TemplateMacroEnabled
+.xltx=Excel.Template
+.xlw=Excel.Workspace
+.xlxml=Excelxmlss
+.xml=xmlfile
+.xrm-ms=MSSppLicenseFile
+.xsl=xslfile
+.xxe=WinRAR
+.xz=WinRAR
+.z=WinRAR
+.ZFSendToTarget=CLSID\{888DCA60-FC0A-11CF-8F0F-00C04FD7D062}
+.zip=WinRAR.ZIP
+.zipx=WinRAR
+.zsav=SPSS.DataFile
+
+16. tasklist
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0        148 K
+Registry                       120 Services                   0     85.948 K
+smss.exe                       472 Services                   0      1.056 K
+csrss.exe                      776 Services                   0      5.480 K
+wininit.exe                    888 Services                   0      6.252 K
+services.exe                   960 Services                   0     10.976 K
+lsass.exe                      980 Services                   0     18.536 K
+svchost.exe                    720 Services                   0      3.340 K
+svchost.exe                    780 Services                   0     30.488 K
+fontdrvhost.exe                880 Services                   0      3.220 K
+WUDFHost.exe                  1068 Services                   0     10.864 K
+WUDFHost.exe                  1128 Services                   0      5.372 K
+svchost.exe                   1200 Services                   0     13.160 K
+svchost.exe                   1248 Services                   0      7.736 K
+svchost.exe                   1420 Services                   0     11.092 K
+svchost.exe                   1476 Services                   0      5.164 K
+svchost.exe                   1568 Services                   0      9.740 K
+svchost.exe                   1588 Services                   0     18.076 K
+svchost.exe                   1596 Services                   0     14.520 K
+svchost.exe                   1656 Services                   0      7.760 K
+svchost.exe                   1732 Services                   0      5.172 K
+svchost.exe                   1744 Services                   0     10.840 K
+svchost.exe                   1764 Services                   0      6.988 K
+svchost.exe                   1840 Services                   0      8.616 K
+svchost.exe                   1864 Services                   0      6.072 K
+svchost.exe                   2008 Services                   0      6.792 K
+svchost.exe                   2016 Services                   0      9.268 K
+svchost.exe                   2040 Services                   0      6.664 K
+svchost.exe                   1832 Services                   0      7.680 K
+svchost.exe                   2204 Services                   0     11.144 K
+igfxCUIService.exe            2216 Services                   0      7.528 K
+svchost.exe                   2240 Services                   0     11.536 K
+svchost.exe                   2396 Services                   0     13.100 K
+svchost.exe                   2464 Services                   0     10.112 K
+svchost.exe                   2520 Services                   0      7.392 K
+svchost.exe                   2608 Services                   0      8.460 K
+atiesrxx.exe                  2824 Services                   0      5.280 K
+svchost.exe                   2852 Services                   0      5.828 K
+svchost.exe                   2940 Services                   0     91.400 K
+svchost.exe                   2948 Services                   0      4.936 K
+Memory Compression            3008 Services                   0      5.520 K
+svchost.exe                   3052 Services                   0      6.712 K
+svchost.exe                   1944 Services                   0     12.820 K
+svchost.exe                   1968 Services                   0      5.800 K
+svchost.exe                   2412 Services                   0      8.972 K
+svchost.exe                   3188 Services                   0      6.596 K
+svchost.exe                   3268 Services                   0     18.948 K
+svchost.exe                   3324 Services                   0     13.456 K
+spoolsv.exe                   3440 Services                   0     13.552 K
+svchost.exe                   3476 Services                   0     17.192 K
+svchost.exe                   3548 Services                   0      6.940 K
+svchost.exe                   3796 Services                   0      7.004 K
+svchost.exe                   3804 Services                   0      6.396 K
+AdminService.exe              3920 Services                   0      6.640 K
+DAX3API.exe                   3928 Services                   0     29.956 K
+svchost.exe                   3936 Services                   0     38.544 K
+FMService64.exe               3944 Services                   0      5.356 K
+esif_uf.exe                   3964 Services                   0      4.220 K
+svchost.exe                   3976 Services                   0     21.128 K
+svchost.exe                   3972 Services                   0     13.308 K
+IntelCpHDCPSvc.exe            3992 Services                   0      6.084 K
+svchost.exe                   4000 Services                   0     29.832 K
+OfficeClickToRun.exe          4016 Services                   0     66.612 K
+mysqld.exe                    4036 Services                   0    127.608 K
+QcomWlanSrvx64.exe            4052 Services                   0      4.708 K
+PEFService.exe                4064 Services                   0          N/A
+svchost.exe                   4080 Services                   0      5.512 K
+TeamViewer_Service.exe        2796 Services                   0     18.444 K
+ModuleCoreService.exe         2880 Services                   0     45.208 K
+svchost.exe                   3696 Services                   0     21.604 K
+svchost.exe                   4104 Services                   0      7.056 K
+RtkAudUService64.exe          4112 Services                   0      8.064 K
+svchost.exe                   4188 Services                   0      4.760 K
+svchost.exe                   4320 Services                   0     12.632 K
+svchost.exe                   4360 Services                   0      6.408 K
+svchost.exe                   4440 Services                   0     10.540 K
+IntelCpHeciSvc.exe            4748 Services                   0      5.680 K
+svchost.exe                   4820 Services                   0      5.424 K
+svchost.exe                   4872 Services                   0      7.744 K
+svchost.exe                   5056 Services                   0     11.772 K
+mfemms.exe                    5252 Services                   0     10.724 K
+svchost.exe                   5740 Services                   0      6.000 K
+svchost.exe                   5804 Services                   0      8.788 K
+MMSSHOST.exe                  5852 Services                   0     45.516 K
+dasHost.exe                   5932 Services                   0     11.428 K
+mfevtps.exe                   6044 Services                   0     11.492 K
+ProtectedModuleHost.exe       6072 Services                   0     14.312 K
+svchost.exe                   2184 Services                   0      6.696 K
+WmiPrvSE.exe                  6372 Services                   0     25.392 K
+servicehost.exe               6768 Services                   0     13.472 K
+dllhost.exe                   7096 Services                   0      9.584 K
+mcapexe.exe                   7228 Services                   0        540 K
+MfeAVSvc.exe                  7252 Services                   0     13.704 K
+McCSPServiceHost.exe          7824 Services                   0     13.948 K
+svchost.exe                   8128 Services                   0     15.160 K
+mcshield.exe                   728 Services                   0     36.812 K
+svchost.exe                   8320 Services                   0     16.816 K
+Lenovo.Modern.ImControlle     8448 Services                   0     57.116 K
+svchost.exe                   9200 Services                   0     17.120 K
+SearchIndexer.exe            10072 Services                   0     81.356 K
+svchost.exe                   9508 Services                   0      9.968 K
+svchost.exe                   2872 Services                   0     16.968 K
+SecurityHealthService.exe    10252 Services                   0     14.768 K
+svchost.exe                   5748 Services                   0      8.000 K
+svchost.exe                   4224 Services                   0      8.756 K
+svchost.exe                   5600 Services                   0     15.576 K
+svchost.exe                   3864 Services                   0     10.660 K
+jhi_service.exe               4896 Services                   0      5.548 K
+GoogleCrashHandler.exe         884 Services                   0        168 K
+LMS.exe                      10904 Services                   0     11.596 K
+GoogleCrashHandler64.exe     10884 Services                   0        156 K
+SgrmBroker.exe                2440 Services                   0      6.016 K
+svchost.exe                   8764 Services                   0     14.880 K
+svchost.exe                   8908 Services                   0     10.388 K
+svchost.exe                   3260 Services                   0     10.176 K
+svchost.exe                  10948 Services                   0     24.240 K
+svchost.exe                  12064 Services                   0      9.360 K
+csrss.exe                     8584 Console                    2      5.440 K
+winlogon.exe                  5904 Console                    2     11.092 K
+dwm.exe                       7344 Console                    2     65.508 K
+fontdrvhost.exe               7696 Console                    2     12.764 K
+atieclxx.exe                  2676 Console                    2      9.700 K
+uihost.exe                    8732 Console                    2     10.300 K
+ctfmon.exe                    7768 Console                    2     16.292 K
+sihost.exe                    3004 Console                    2     25.260 K
+svchost.exe                   2700 Console                    2     24.564 K
+igfxEM.exe                    8400 Console                    2     25.236 K
+svchost.exe                   2288 Console                    2     34.452 K
+explorer.exe                  3644 Console                    2    150.776 K
+taskhostw.exe                 1960 Console                    2     14.176 K
+unsecapp.exe                  1828 Console                    2      9.432 K
+svchost.exe                   4132 Console                    2     22.676 K
+dllhost.exe                   8940 Console                    2      6.800 K
+McUICnt.exe                  13116 Console                    2      6.792 K
+StartMenuExperienceHost.e     9144 Console                    2     79.056 K
+RuntimeBroker.exe             9288 Console                    2     26.832 K
+SearchUI.exe                 10992 Console                    2    188.144 K
+RuntimeBroker.exe             8052 Console                    2     45.312 K
+SettingSyncHost.exe            912 Console                    2      6.684 K
+LockApp.exe                   7984 Console                    2     50.888 K
+RuntimeBroker.exe             2544 Console                    2     16.892 K
+RuntimeBroker.exe             1372 Console                    2     30.380 K
+SecurityHealthSystray.exe    12004 Console                    2      8.612 K
+RtkAudUService64.exe         12124 Console                    2      9.520 K
+TabletDriver.exe              8896 Console                    2     11.352 K
+OneDrive.exe                  4376 Console                    2     57.076 K
+schtasks.exe                  1108 Console                    2        952 K
+conhost.exe                  13068 Console                    2        308 K
+utility.exe                  12548 Console                    2      8.604 K
+jusched.exe                   3492 Console                    2      7.764 K
+ModuleCoreService.exe        10852 Console                    2     18.628 K
+conhost.exe                   3640 Console                    2     10.972 K
+svchost.exe                  12732 Console                    2     12.320 K
+ApplicationFrameHost.exe      9972 Console                    2     26.564 K
+Lenovo.Modern.ImControlle     4328 Console                    2     44.272 K
+Lenovo.Modern.ImControlle    12376 Console                    2     69.288 K
+Lenovo.Modern.ImControlle     2100 Console                    2     49.864 K
+Lenovo.Modern.ImControlle     5664 Console                    2     48.216 K
+ShellExperienceHost.exe       1228 Console                    2     60.312 K
+RuntimeBroker.exe             8216 Console                    2     22.428 K
+svchost.exe                   9536 Services                   0      8.724 K
+svchost.exe                   1076 Services                   0      5.456 K
+svchost.exe                   7388 Services                   0      9.044 K
+chrome.exe                    9024 Console                    2    115.768 K
+chrome.exe                   13304 Console                    2      6.404 K
+chrome.exe                   11660 Console                    2      8.720 K
+chrome.exe                    7948 Console                    2    150.340 K
+chrome.exe                    9300 Console                    2     30.940 K
+chrome.exe                    9060 Console                    2     48.064 K
+cmd.exe                      13412 Console                    2      3.560 K
+conhost.exe                  13464 Console                    2     12.804 K
+browserhost.exe              13540 Console                    2      2.708 K
+McSmtFwk.exe                  9428 Services                   0     11.232 K
+chrome.exe                   14056 Console                    2     60.980 K
+chrome.exe                     592 Console                    2     67.840 K
+chrome.exe                    5924 Console                    2     93.408 K
+chrome.exe                    3568 Console                    2     83.932 K
+dllhost.exe                   3560 Console                    2     11.816 K
+chrome.exe                   11688 Console                    2     21.088 K
+chrome.exe                    4756 Console                    2     43.600 K
+WindowsInternal.Composabl     3688 Console                    2     46.356 K
+cmd.exe                       7720 Console                    2      4.212 K
+conhost.exe                   1992 Console                    2     18.428 K
+svchost.exe                   7772 Services                   0     11.468 K
+smartscreen.exe              12756 Console                    2     22.160 K
+notepad.exe                   7004 Console                    2     16.276 K
+tasklist.exe                  5796 Console                    2      9.888 K
+
+17. systeminfo
+Host Name:                 LENOVO
+OS Name:                   Microsoft Windows 10 Home Single Language
+OS Version:                10.0.18363 N/A Build 18363
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Aulia Putri
+Registered Organization:
+Product ID:                00327-35111-04781-AAOEM
+Original Install Date:     16/06/2019, 07.59.03
+System Boot Time:          17/02/2020, 23.44.17
+System Manufacturer:       LENOVO
+System Model:              81F4
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 142 Stepping 10 GenuineIntel ~1600 Mhz
+BIOS Version:              LENOVO 7SCN26WW, 26/10/2018
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     8.101 MB
+Available Physical Memory: 4.875 MB
+Virtual Memory: Max Size:  10.917 MB
+Virtual Memory: Available: 5.596 MB
+Virtual Memory: In Use:    5.321 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\LENOVO
+Hotfix(s):                 10 Hotfix(s) Installed.
+                           [01]: KB4533002
+                           [02]: KB4497727
+                           [03]: KB4498523
+                           [04]: KB4503308
+                           [05]: KB4506933
+                           [06]: KB4509096
+                           [07]: KB4516115
+                           [08]: KB4517245
+                           [09]: KB4524569
+                           [10]: KB4530684
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Qualcomm Atheros QCA9377 Wireless Network Adapter
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.43.1
+                                 IP address(es)
+                                 [01]: 192.168.43.98
+                                 [02]: fe80::ad48:a4c0:4f83:aff5
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yesp
+
+18. path
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;
+C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;
+C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;
+C:\Program Files\Git\cmd;C:\Users\Aulia Putri\AppData\Local\Microsoft\WindowsApps;C:\Users\Aulia Putri\AppData\Roaming\npm
+
+19. tree
+Folder PATH listing for volume Windows
+Volume serial number is B8D3-BC6C
+C:\
+├───Drivers
+│   ├───Audio
+│   │   ├───Dolby
+│   │   │   ├───ext_realtek_lenovo_ideapad
+│   │   │   │   ├───ext_lenovo_330s_14ikb_rs4_v218
+│   │   │   │   ├───ext_lenovo_330s_15ikb_rs4_v218
+│   │   │   │   └───ext_lenovo_330s_15nv_rs4_v217
+│   │   │   └───swc_factory
+│   │   │       ├───swc_aposvc_rs3_rs4_ga220_v247
+│   │   │       └───swc_hsa_rs3_rs4_ga220_v247
+│   │   ├───Fortemedia
+│   │   │   ├───ExtensionInf
+│   │   │   │   └───Lenovo
+│   │   │   └───FMAPO
+│   │   └───Realtek
+│   │       ├───CodecExtOem_RTK_8470
+│   │       ├───Codec_8470
+│   │       ├───RealtekAPO_626
+│   │       ├───RealtekHSA_120
+│   │       └───RealtekService_77
+│   ├───BISON_Azurewave
+│   ├───Bluetooth_Qualcomm
+│   ├───BTSwiftPair
+│   ├───CardReader
+│   │   ├───Gensys
+│   │   └───Realtek
+│   ├───Chipset
+│   ├───DPTF
+│   │   └───Intel_DPTF
+│   ├───GPU
+│   │   ├───Bin64
+│   │   │   └───localization
+│   │   │       ├───cs
+│   │   │       ├───da_DK
+│   │   │       ├───de
+│   │   │       ├───el_GR
+│   │   │       ├───es_ES
+│   │   │       ├───fi_FI
+│   │   │       ├───fr_FR
+│   │   │       ├───hu_HU
+│   │   │       ├───it_IT
+│   │   │       ├───ja
+│   │   │       ├───ko_KR
+│   │   │       ├───nl_NL
+│   │   │       ├───no
+│   │   │       ├───pl
+│   │   │       ├───pt_BR
+│   │   │       ├───ru_RU
+│   │   │       ├───sv_SE
+│   │   │       ├───th
+│   │   │       ├───tr_TR
+│   │   │       ├───zh_CN
+│   │   │       └───zh_TW
+│   │   ├───Config
+│   │   ├───Images
+│   │   └───Packages
+│   │       └───Drivers
+│   │           └───Display
+│   │               └───WT6A_INF
+│   │                   └───B334021
+(dan seterusnya)
+
+20. rename
+rename coba.txt hallo.txt (rename nama file coba menjadi hallo)
+
+21. exit 
+exit (keluar dari command prompt)
