@@ -1,4 +1,0 @@
-## Repositori
-
-- rhymes
-- praxis-academy
