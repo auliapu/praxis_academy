@@ -49,5 +49,6 @@ Ringkasan Materi :
    **WeakSet** adalah kumpulan Set-like yang hanya menyimpan objek dan menghapusnya begitu tidak dapat diakses dengan cara lain.
    
    WeakMap dan WeakSet digunakan sebagai struktur data "sekunder" di samping penyimpanan objek "utama". Setelah objek dihapus dari penyimpanan utama, jika hanya ditemukan sebagai key WeakMap atau dalam WeakSet, maka akan dibersihkan secara otomatis.
-  
+   
+Isi Repositori : Berisi file-file latihan dan kasus yang dikerjakan untuk minggu pertmaa hari kelima
 
