@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh</title>
+</head>
+<body>
+
+    <div id="div1">The text</div>
+
+    <script>
+        document.body.onload = addElement;
+
+        function addElement() {
+            var newDiv = document.createElement("div"); //menambahkan div baru
+            var newContent = document.createTextNode("Hello"); //isi div baru
+            newDiv.appendChild(newContent);
+
+            var currentDiv = document.getElementById("div1");
+            document.body.insertBefore(newDiv, currentDiv);
+        }
+    </script>
+</body>
+</html>
