@@ -184,7 +184,6 @@ Penjelasan Latihan :
    **Contoh**
 
    Membuat salinan untuk elemen `<strong>` dengan `cloneNode()`, kemudian menambahkannya ke tag `<div>` sebagai elemen turunan dengan metode `appendChild()`.
-   Hasilnya, <div> akan berisi dua <strong> elemen, keduanya dengan halo string sebagai konten.
 
         HTML
         <div>
@@ -199,7 +198,7 @@ Penjelasan Latihan :
 
 10. insertBefore()
 
-    Metode `insertBefore()` menambahkan elemen child (anak) yang spesifik sebelum elemen anak lain. Metode ini dipanggil oleh elemen parent (orang tua).
+    Metode `insertBefore()` menambahkan elemen child(anak) yang spesifik sebelum elemen anak lain. Metode ini dipanggil oleh elemen parent (orang tua).
     Jika elemen anak yang direferensikan tidak ada atau null, maka elemen anak yang disisipkan akan ditambahkan sebagai anak terakhir dari orangtua.
 
     **Syntax**
