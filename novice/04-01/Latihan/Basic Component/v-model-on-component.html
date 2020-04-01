@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Component</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="model-demo">
+        <custom-input v-model="searchText"></custom-input>
+    </div>
+
+    <script>
+        Vue.component('custom-input', {
+            props: ['value'], 
+            template: `
+                <input 
+                    v-bind:value="value"
+                    v-on:input="$emit('input', $event.target.value)"
+                >
+            `
+        })
+    </script>
+
+    <script>
+        new Vue({
+            el: '#model-demo'
+        })
+    </script>
+</body>
+</html>

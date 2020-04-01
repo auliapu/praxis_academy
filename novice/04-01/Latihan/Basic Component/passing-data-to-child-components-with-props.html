@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Component</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="blog-demo">
+        <blog-post title="Perjalananku dengan Vue"></blog-post>
+        <blog-post title="Blogging dengan Vue"></blog-post>
+        <blog-post title="Vue sangat menyenangkan"></blog-post>
+    </div>
+
+    <!-- atau -->
+    <div id="blog-post-demo">
+        <blog-posts
+            v-for="post in posts"
+            v-bind:key="post.id"
+            v-bind:title="post.title"
+        ></blog-posts>
+    </div>
+
+    <script>
+        Vue.component('blog-post', {
+            props: ['title'],
+            template: '<h3> {{title}} </h3>'
+        })
+
+        Vue.component('blog-posts', {
+            props: ['title'],
+            template: '<h5> {{title}} </h5>'
+        })
+    </script>
+
+    <script>
+        new Vue({
+            el: '#blog-demo'
+        })
+
+        new Vue({
+        el: '#blog-post-demo',
+        data: {
+            posts: [
+                { id: 1, title: 'Perjalananku dengan Vue'},
+                { id: 2, title: 'Blogging dengan Vue'},
+                { id: 3, title: 'Vue sangat menyenangkan'}
+            ]
+          }
+        })
+    </script>
+</body>
+</html>

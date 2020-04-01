@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conditional Rendering</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <!-- v-if -->
+    <div id="app0">
+    <h1 v-if="awesome">Vue is awesome!</h1>
+    <h1 v-else>Oh no</h1>
+    </div>
+
+    <!-- v-if pada <template> -->
+    <div id="app">
+    <template v-if="ok">
+        <h1>Judul</h1>
+        <h1>Paragraf 1</h1>
+        <h1>Paragraf 2</h1>
+    </template>
+    </div>
+
+    <!-- v-else -->
+    <div id="app1">
+    <div v-if="Math.random() > 0.5">
+        Sekarang kamu melihatku
+    </div>
+    <div v-else>
+        Sekarang tidak
+    </div>
+    </div>
+
+    <!-- v-else-if -->
+    <div id="app2">
+    <div v-if="type === 'A'">
+        A
+    </div>
+    <div v-else-if="type === 'B'">
+        B
+    </div>
+    <div v-else-if="type === 'C'">
+        C
+    </div>
+      <div v-else>
+        Bukan A/B/C
+      </div>
+    </div>
+
+    <!-- controlling reusable elements with key -->
+    <div id="app3">
+    <template v-if="loginType === 'username'">
+        <label>Username</label>
+        <input placeholder="Masukkan username : " key='username-input'>
+    </template>
+    <template v-else>
+        <label>Email</label>
+        <input placeholder="Masukkan email : " key="email-input">
+    </template>
+    <button @click="toggle">Submit</button>
+    </div>
+
+    <!-- v-show-->
+    <div id="app4">
+    <h1 v-show="ok">Hello!</h1>
+    </div>
+
+<script>
+    // v-if
+    new Vue({
+        el: '#app0',
+        data: {
+            awesome: false
+        }
+    })
+
+    // v-if pada <template>
+    new Vue({
+        el: '#app',
+        data: {
+            ok: true
+        }
+    })
+
+    // v-else 
+    new Vue({
+        el: '#app1',
+        data: {}
+    })
+
+    // v-else-if
+    var vm = new Vue({
+        el: '#app2',
+        delimiters: ['${', '}'],
+        data: {
+            type: "D"
+        }
+    });
+
+    // controlling reusable elements with key
+    new Vue({
+        el: '#app3',
+        data: {}
+    })
+
+    // v-show
+    new Vue({
+        el: '#app4',
+        data: {
+            ok: true
+        }
+    })  
+</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transisi dan Animasi</title>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tween.js@16.3.4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/color-js@1.0.3"></script>
+  <style>
+      .demo-color-preview {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+      }
+  </style>
+</head>
+<body>
+    <div id="demo">
+        <input 
+            v-model="colorQuery"
+            v-on:keyup.enter="updateColor"
+            placeholder="Masukkan warna : "
+        >
+        <button v-on:click="updateColor">Ubah</button>
+        <p>Pratinjau : </p>
+        <span
+            v-bind:style="{ backgroundColor: tweenedCSSColor }"
+            class="demo-color-preview"
+        ></span>
+        <p>{{ tweenedCSSColor }}</p>
+    </div>
+
+    <script>
+        var Color = net.brehaut.Color
+
+        new Vue({
+        el: '#demo',
+        data: {
+            colorQuery: '',
+            color: {
+            red: 0,
+            green: 0,
+            blue: 0,
+            alpha: 1
+            },
+            tweenedColor: {}
+        },
+        created: function () {
+            this.tweenedColor = Object.assign({}, this.color)
+        },
+        watch: {
+            color: function () {
+            function animate () {
+                if (TWEEN.update()) {
+                requestAnimationFrame(animate)
+                }
+            }
+
+            new TWEEN.Tween(this.tweenedColor)
+                .to(this.color, 750)
+                .start()
+
+            animate()
+            }
+        },
+        computed: {
+            tweenedCSSColor: function () {
+            return new Color({
+                red: this.tweenedColor.red,
+                green: this.tweenedColor.green,
+                blue: this.tweenedColor.blue,
+                alpha: this.tweenedColor.alpha
+            }).toCSS()
+            }
+        },
+        methods: {
+            updateColor: function () {
+            this.color = new Color(this.colorQuery).toRGB()
+            this.colorQuery = ''
+            }
+        }
+        })
+    </script>
+</body>
+</html>

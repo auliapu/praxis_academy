@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Component</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="demo-alert-box">
+        <alert-box>Something bad happened</alert-box>
+    </div>
+
+    <script>
+        Vue.component('alert-box', {
+            template: `
+                <div class="demo-alert-box">
+                    <strong>Error!</strong>
+                    <slot></slot>
+                </div>
+            `
+        })
+    </script>
+
+    <script>
+        new Vue({
+            el: '#demo-alert-box'
+        })
+    </script>
+</body>
+</html>
