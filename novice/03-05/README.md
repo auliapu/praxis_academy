@@ -4,7 +4,7 @@ Judul : Pengenalan Vue.js
 
 Oleh : Aulia Putri Utami
 
-Tanggal : 
+Tanggal : 23 Maret 2020
 
 Ringkasan Materi :
 
