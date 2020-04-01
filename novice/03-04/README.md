@@ -125,7 +125,7 @@ Penjelasan Latihan :
 
    **Contoh**
 
-     Menyisipkan elemen <strong> sebagai anak dari elemen <div> menggunakan `appendChild()` dan metode `createElement()` yang disebutkan sebelumnya.
+     Menyisipkan elemen `<strong>` sebagai anak dari elemen `<div>` menggunakan `appendChild()` dan metode `createElement()` yang disebutkan sebelumnya.
 
         HTML
         <div></div>
@@ -146,7 +146,7 @@ Penjelasan Latihan :
 
    **Contoh**
 
-   Menghapus elemen <strong> yang sebelumnya ditambahkan sebagai tag <div> di contoh pada metode appendChild() sebelumnya.
+   Menghapus elemen `<strong>` yang sebelumnya ditambahkan sebagai tag `<div>` di contoh pada metode `appendChild()` sebelumnya.
 
     > div.removeChild(strong);
 
@@ -183,8 +183,7 @@ Penjelasan Latihan :
 
    **Contoh**
 
-   Membuat salinan untuk elemen `<strong>` dengan `cloneNode()`, kemudian menambahkannya ke tag <div> sebagai elemen turunan dengan metode `appendChild()`.
-   Hasilnya, <div> akan berisi dua <strong> elemen, keduanya dengan halo string sebagai konten.
+   Membuat salinan untuk elemen `<strong>` dengan `cloneNode()`, kemudian menambahkannya ke tag `<div>` sebagai elemen turunan dengan metode `appendChild()`.
 
         HTML
         <div>
@@ -199,7 +198,7 @@ Penjelasan Latihan :
 
 10. insertBefore()
 
-    Metode `insertBefore()` menambahkan elemen child (anak) yang spesifik sebelum elemen anak lain. Metode ini dipanggil oleh elemen parent (orang tua).
+    Metode `insertBefore()` menambahkan elemen child(anak) yang spesifik sebelum elemen anak lain. Metode ini dipanggil oleh elemen parent (orang tua).
     Jika elemen anak yang direferensikan tidak ada atau null, maka elemen anak yang disisipkan akan ditambahkan sebagai anak terakhir dari orangtua.
 
     **Syntax**
@@ -233,8 +232,8 @@ Penjelasan Latihan :
 
     **Contoh**
 
-    Membuat beberapa baris tabel dan sel dengan metode `createElement()`, menambahkannya ke objek DocumentFragment, lalu menambahkan fragmen dokumen ke HTML <table> menggunakan metode `appendChild()`.
-    Dalam contoh ini, kami membuat beberapa baris tabel dan sel dengan metode createElement (), lalu menambahkannya ke objek DocumentFragment, akhirnya menambahkan fragmen dokumen ke HTML <table> menggunakan metode appendChild ().
+    Membuat beberapa baris tabel dan sel dengan metode `createElement()`, menambahkannya ke objek DocumentFragment, lalu menambahkan fragmen dokumen ke HTML `<table>` menggunakan metode `appendChild()`.
+    Dalam contoh ini, kami membuat beberapa baris tabel dan sel dengan metode `createElement()`, lalu menambahkannya ke objek DocumentFragment, akhirnya menambahkan fragmen dokumen ke HTML `<table>` menggunakan metode `appendChild()`.
     Hasilnya, lima baris - masing-masing berisi satu sel dengan angka dari 1 hingga 5 sebagai konten - akan dimasukkan ke dalam tabel.
 
             HTML
