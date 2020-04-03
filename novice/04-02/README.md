@@ -1,6 +1,6 @@
-#04-02
+# 04-02
 
-Judul :
+Judul : Lebih Lanjut Dengan Vue.js (2)
 
 Oleh : Aulia Putri Utami
 
