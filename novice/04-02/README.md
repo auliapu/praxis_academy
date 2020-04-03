@@ -4,7 +4,7 @@ Judul : Lebih Lanjut Dengan Vue.js (2)
 
 Oleh : Aulia Putri Utami
 
-Tanggal : 
+Tanggal : 31 Maret 2020
 
 Ringkasan Materi :
 
