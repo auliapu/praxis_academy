@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="base-example">
+        <p>Scroll down the page</p>
+        <p v-pin="200">Stick me 200px from the top of the page</p>
+    </div>
+
+    <!-- contoh 2 -->
+    <div id="dynamic-example">
+        <h3>Scroll down inside this section</h3>
+        <p v-pin:[direction]="200">I am pinned onto the page at 200px to the left.</p>
+    </div>
+    <script>
+    Vue.directive('pin', {
+        bind: function(el, binding, vnode) {
+            el.style.position = 'fixed'
+            el.style.top = binding.value + 'px'
+        }
+    })
+
+    new Vue({
+        el: '#base-example'
+    })
+
+    //contoh 2
+    Vue.directive('pin', {
+        bind: function(el, binding, vnode) {
+            el.style.position = 'fixed'
+            var s = (binding.arg == 'left' ? 'left' : 'top')
+            el.style[s] = binding.value + 'px'
+        }
+    })
+
+    new Vue({
+        el: '#dynamic-example',
+        data: function() {
+            return {
+                direction: 'left'
+            }
+        }
+    })
+</script>
+</body>
+</html>

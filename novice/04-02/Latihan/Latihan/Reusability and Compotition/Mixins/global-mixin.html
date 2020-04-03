@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <script>
+        Vue.mixin({
+            created: function() {
+                var myOption = this.$options.myOption
+                if(myOption) {
+                    console.log(myOption);
+                    
+                }
+            }
+        })
+
+        new Vue({
+            myOption: 'hello'
+        })
+    </script>
+</body>
+</html>

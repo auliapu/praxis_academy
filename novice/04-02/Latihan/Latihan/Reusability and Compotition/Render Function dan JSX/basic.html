@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="demo">
+        <anchored-heading :level="1">Hello world!</anchored-heading>
+    </div>
+    <script>
+
+        Vue.component('anchored-heading', {
+        render: function (createElement) {
+            return createElement(
+            'h' + this.level,   // nama tag
+            this.$slots.default // isi dari komponen
+            )
+        },
+        props: {
+            level: {
+            type: Number,
+            required: true
+            }
+        }
+        })
+
+        new Vue({
+        el: '#demo'
+        })
+    </script>
+</body>
+</html>

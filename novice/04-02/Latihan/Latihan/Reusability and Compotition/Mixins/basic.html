@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <script>
+        var myMixin = {
+        created: function () {
+            this.hello()
+        },
+        methods: {
+            hello: function () {
+            console.log('hello from mixin!')
+            }
+        }
+        }
+
+        var Component = Vue.extend({
+        mixins: [myMixin]
+        })
+
+        var component = new Component()
+    </script>
+</body>
+</html>

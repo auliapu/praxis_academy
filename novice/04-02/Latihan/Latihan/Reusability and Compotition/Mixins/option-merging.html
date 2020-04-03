@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Option Merging</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <script>
+        // var mixin = {
+        // data: function () {
+        //     return {
+        //         message: 'hello',
+        //         foo: 'abc'
+        //     }
+        // }
+        // }
+        
+        // new Vue({
+        //     mixins: [mixin],
+        //     data: function() {
+        //         return {
+        //             message: 'goodbye',
+        //             bar: 'def'
+        //         }
+        //     },
+        //     created: function() {
+        //         console.log(this.$data)
+        //     }
+        // })
+
+// contoh 2
+        // var mixin = {
+        //     created: function() {
+        //         console.log('mixin hook called')
+        //     }
+        // }
+
+        // new Vue ({
+        //     mixins: [mixin],
+        //     created: function() {
+        //         console.log('component hook called')
+        //     }
+        // })
+
+//contoh 3
+        var mixin = {
+            methods: {
+                foo: function() {
+                    console.log('foo')
+                },
+                conflicting: function() {
+                    console.log('from mixin')
+                }
+            }
+        }
+
+        var vm = new Vue({
+            mixins: [mixin],
+            methods: {
+                bar: function() {
+                    console.log('bar')
+                },
+                conflicting: function() {
+                    console.log('from self');
+                }
+            }
+        })
+    </script>
+</body>
+</html>

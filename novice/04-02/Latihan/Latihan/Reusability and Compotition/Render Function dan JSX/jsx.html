@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Object Literal</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="demo">
+    <anchored-heading: level="1">
+        <span>hello</span> world
+    </anchored-heading:>
+    </div>
+
+    <script>
+    import AnchoredHeading from './AnchoredHeading.vue'
+
+    new Vue({
+        el: '#demo',
+        render: function (h) {
+        return (
+        <AnchoredHeading level={1}>
+            <span>Hello</span> world!
+        </AnchoredHeading>
+        )
+    }
+    })
+    </script>
+</body>
+</html>

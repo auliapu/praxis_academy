@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Object Literal</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div v-demo="{ color:'white', text: 'hello!' }"></div>
+    
+    <script>
+    Vue.directive('demo', function (el, binding) {
+        console.log(binding.value.color)
+        console.log(binding.value.text)
+    })    
+    </script>
+</body>
+</html>
